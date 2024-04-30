@@ -6,6 +6,66 @@
   height: 40vmin;
   pointer-events: none;
 }
+/* Estilos para la aplicación de gestión de gastos personales */
+
+/* Paleta de colores verdes */
+.green1 { color: #00FF00; }
+.green2 { color: #00EE00; }
+.green3 { color: #00DD00; }
+.green4 { color: #00CC00; }
+.green5 { color: #00BB00; }
+.green6 { color: #00AA00; }
+.green7 { color: #009900; }
+.green8 { color: #008800; }
+.green9 { color: #007700; }
+.green10 { color: #006600; }
+.green11 { color: #005500; }
+.green12 { color: #004400; }
+.green13 { color: #003300; }
+.green14 { color: #002200; }
+.green15 { color: #001100; }
+
+/* Estilos para la aplicación */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.header {
+  text-align: center;
+}
+
+.expenses {
+  list-style: none;
+  padding: 0;
+}
+
+.expense-item {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.budget-input {
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #00AA00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #008800;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
