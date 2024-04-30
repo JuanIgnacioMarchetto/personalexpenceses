@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles.css'; // Importa el archivo de estilos CSS
+import './App.css'
 import ExpenseForm from './components/ExpenseForm';
 import ExpenseList from './components/ExpenseList';
 import BudgetForm from './components/BudgetForm';
