@@ -18,7 +18,7 @@ const App = () => {
         <h1 className='green6'>Personal Expense Tracker</h1>
         <BudgetForm setBudget={setBudget} />
         <ExpenseForm addExpense={addExpense} />
-        <ExpenseList expenses={expenses} /> {/* Verifica que 'expenses' esté pasando correctamente */}
+        <ExpenseList expenses={expenses} /> 
         <h3 className='green8'>Monthly Budget: ${budget}</h3>
       </div>
     </div>

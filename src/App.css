@@ -6,9 +6,7 @@
   height: 40vmin;
   pointer-events: none;
 }
-/* Estilos para la aplicación de gestión de gastos personales */
 
-/* Paleta de colores verdes */
 .green1 { color: #00FF00; }
 .green2 { color: #00EE00; }
 .green3 { color: #00DD00; }
@@ -25,7 +23,6 @@
 .green14 { color: #002200; }
 .green15 { color: #001100; }
 
-/* Estilos para la aplicación */
 .app {
   display: flex;
   justify-content: center;
